@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5e2c1ef-e4bf-49b4-9bbd-bf75cc1135d4">
+  <producedTypes>
+    <objectType typeId="7824a6a9-0cc4-4234-8916-b322e0d80a60" valueTypeId="0876b52b-dec9-4a73-9398-db6a40862a2f"/>
+    <refType typeId="e4c7cb7d-9016-4fd9-b644-ff7c72388fbd" valueTypeId="5f6ec501-be7b-4b5b-939c-761ab0b97ab2"/>
+    <selectionType typeId="2b1ccaed-ea8a-414e-ab5f-4b0714e7ed58" valueTypeId="afe778d4-1733-4370-b482-7fb4ec7d64ec"/>
+    <listType typeId="9160a8f6-5d31-44a6-82c4-f6b3038255d0" valueTypeId="61025a13-a571-4d13-8377-5f3c58ca69ef"/>
+    <managerType typeId="550dc6a1-3b36-49a5-ab41-6d25c7c582d7" valueTypeId="65638ed6-ac2d-49e1-9b81-5b46f3584e9d"/>
+  </producedTypes>
+  <name>ПрайсЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс лист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПрайсЛист.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.УчетЦенНоменклатуры</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="31eacc68-7a5b-425d-9cad-dc2b896b8fb8">
+    <producedTypes>
+      <objectType typeId="2bd16990-2b8f-4c2f-8430-9f33af04ca25" valueTypeId="b0aedb20-0bd5-4ddc-b7f0-fc71a82e5af4"/>
+      <rowType typeId="92c8cbd3-d468-4918-a6cd-047ca889b2b8" valueTypeId="8101d0fe-4c8b-472c-98a6-34d3d4e97239"/>
+    </producedTypes>
+    <name>СписокНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список номенклатуры</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="5692dcba-b0e1-437f-9683-ecce57a96e42">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a156b960-5c07-47f9-a68c-e78915fe0f8e">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежныеСредства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

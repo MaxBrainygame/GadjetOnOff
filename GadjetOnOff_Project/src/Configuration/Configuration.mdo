@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fce60a81-2377-4887-a256-de663545bc9f">
+  <name>МагазинГаджетОн</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет-магазин &quot;GadgetON&quot;</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6c13696c-27a0-4603-aae6-9c9b4a0f1c70"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="97b88311-d5e6-42f5-a540-1545dee850de"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6afa34a3-0f8e-4e26-9def-6a16daf99adb"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="faaf14ae-4fe9-423b-8283-81893a7876f7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c7a9a411-94e8-4b6d-9e55-438ef2907ff2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="74895147-eed6-40f9-9983-4db4b8a279ff"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="877955eb-8f53-46e0-bac2-3b5de2bcbee2"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="69b3c372-3e61-4903-979b-ef2c8e3d3c98">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Поставки</subsystems>
+  <subsystems>Subsystem.Заказы</subsystems>
+  <styles>Style.Корпоративный</styles>
+  <commonPictures>CommonPicture.КартинкаПоставки</commonPictures>
+  <commonPictures>CommonPicture.КартинкаЗаказы</commonPictures>
+  <roles>Role.Администратор</roles>
+  <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Города</catalogs>
+  <documents>Document.ЗаказыПоставщикам</documents>
+  <documents>Document.ПриходныеНакладные</documents>
+  <documents>Document.РасходыДенежныхСредств</documents>
+  <documents>Document.ЗаказыКлиента</documents>
+  <documents>Document.РасходныеНакладные</documents>
+  <documents>Document.ПриходыДенежныхСредств</documents>
+  <documents>Document.ПрайсЛист</documents>
+  <enums>Enum.СтатусЗаказа</enums>
+  <reports>Report.ОстаткиТоваров</reports>
+  <informationRegisters>InformationRegister.УчетЦенНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+</mdclass:Configuration>

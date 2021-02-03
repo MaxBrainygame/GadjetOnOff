@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d455ac74-b42c-4576-bf0d-4f94b4cbb1eb">
+  <producedTypes>
+    <refType typeId="2ec9d86c-92c7-41e4-8d05-b81eaec44986" valueTypeId="d87db3bd-a0b1-43da-9ce8-75e5b1b51f5f"/>
+    <listType typeId="36e6afc9-da75-47bb-b706-4a4341d84f9f" valueTypeId="4099fbde-eee4-4267-a880-64aa539b1e58"/>
+    <managerType typeId="08c60cc4-7438-48e6-ab25-ddc2f6dfca78" valueTypeId="f94dab6c-3827-497f-87be-c9aacfca7485"/>
+  </producedTypes>
+  <name>СтатусЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус заказа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="54c64cbb-249b-473d-ba48-0009c2a939db">
+    <name>Оформление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="918aedf0-693e-4f5f-b605-552c08d5e414">
+    <name>СборкаЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка заказа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aae514c7-46f0-4f0e-8f82-6d35fa749407">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d66d4cd5-028d-452f-968c-04718059ff43">
+    <name>ЗаказВыдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ выдан</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
