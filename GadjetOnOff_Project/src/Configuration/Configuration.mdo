@@ -45,6 +45,8 @@
   <commonPictures>CommonPicture.КартинкаЗаказы</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.ОбработчикПодписок</commonModules>
+  <eventSubscriptions>EventSubscription.ОповещениеОПоставщике</eventSubscriptions>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Поставщики</catalogs>
